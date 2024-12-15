@@ -1,0 +1,266 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 0%;
+    background-color: #0aa3c1;
+    background-image: url('../assests/aaa.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .nav_1{
+    display: flex;
+    margin-left: 100px;
+    gap: 5px;
+  }
+  .nav_1 h6:hover{
+    cursor: pointer;
+    color: #304347;
+  }
+  .nav_1 h6{
+    /* margin-left: 20px; */
+    color: #ffff;
+  }
+  .mai{
+margin-right: 230px;
+  }
+  .emai{
+    margin-left: 10px;
+    color: #ffff;
+  }
+  .ema:hover{
+    cursor: pointer;
+    color: #304347;
+  }
+  .ema{
+    
+    color: #ffff;
+    margin: 15px;
+    font-size: 1.1em;
+  }
+  .ioc{
+    margin-left: 200px;
+  }
+  .nav_1 p{
+    margin-left: 20px;
+  }
+  
+  .nav_ul {
+    display: flex;
+    list-style:none;
+    gap: 1.5rem;
+    justify-content: end;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .nav_ul img{
+         height: 70px;
+           width: 70px;
+          margin-right: 1085px;
+             position: absolute;
+  }
+  .text{
+    margin-right:36%;
+    margin-top: 10px;
+    position: relative;
+  }
+  .nav_con{
+    position: relative;
+    top:10px;
+    border: 2px solid #ffff;
+    background-color: #ffff;
+    opacity: .9;
+    border-radius: 9px;
+    width: 87%;
+    margin-left: 100px;
+  }
+  .nav_ul li a {
+    position: relative;
+    top:20px;
+    text-decoration: none;
+    color: #1b1a1a;
+    padding: 10px;
+  }
+  .navbar ul li a:hover {
+    color: #0aa3c1;
+  }
+  .quote-button {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 80px;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding:10px; */
+    width: 100vh;
+    padding-bottom: 100px;
+  }
+  .hero-content {
+    max-width: 100%;
+    margin-left:25%;
+    padding:10px;
+  }
+  .hero-content h6{
+    margin-top: 15px;
+  }
+  .hero-content h1 {
+    font-size: 3rem;
+    color: #ffff;
+  }
+  .hero-content button {
+    background-color:transparent;
+    color: #ffff;
+    padding: 0.75rem 2rem;
+    border:1px solid #ffff;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .sild{
+    margin-top: 100px;
+  }
+
+  .phone{
+    color: white;
+    margin-left:7px ;
+    /* padding-right:10px; */
+  }
+
+  /* General Mobile Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav_1 {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 10px;
+    font-size:0.3rem;
+  }
+
+  .nav_1 h6 {
+    font-size: 0.9rem;
+  }
+
+  .ioc {
+    display: flex;
+    position: relative;
+    left: 130px;
+    bottom: 60px;
+    justify-content: flex-end;
+    margin-left: 20px;
+    gap: 2px;
+  }
+
+  .nav_con {
+    display: none;
+  }
+
+  .nav_ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  .ema{
+    font-size: 1rem;
+  }
+
+  .nav_ul img {
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+  }
+
+  .text {
+    margin: 0;
+    text-align: center;
+  }
+
+  .nav_ul li a {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .quote-button {
+    margin: 20px auto;
+    display: block;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .hero-content {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  .nav_1 {
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .nav_1 h6 {
+    font-size: 0.8rem;
+  }
+
+  .ioc {
+    gap: 5px;
+    margin-left: 10px;
+  }
+
+  .nav_ul {
+    gap: 5px;
+    padding: 5px 0;
+  }
+
+  .nav_ul li a {
+    font-size: 0.8rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .quote-button {
+    font-size: 0.8rem;
+  }
+
+  .hero-content button {
+    font-size: 0.8rem;
+  }
+}

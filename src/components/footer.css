@@ -1,0 +1,458 @@
+.condain{
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+}
+.condain h2{
+    color: rgb(51, 44, 44);
+}
+.con1{
+    display: flex;
+    justify-content: center;
+}
+.im1{
+
+    padding: 20px;
+}
+.txt{
+    position: relative;
+    height: 60px;
+    width: 250px;
+    background-color:#ffff;
+    color: rgb(8, 8, 44);
+    bottom: 20px;
+    left: 15px;
+    /* text-align: center; */
+}
+.imm{
+    height: 50px;
+    width: 100px;
+}
+.mid{
+    background-image: url(../assests/ffff.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 150px;
+    /* align-items: center; */
+    text-align: center;
+    padding: 10px;
+    height: 600px;
+}
+
+.mid1 button{
+    margin-top: 30px;
+    padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(34, 193, 221);
+    border-radius: 5px;
+
+}
+.mid1{
+    margin-top: 70px;
+}
+.mid img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 40px;
+}
+.fin{
+    height: 130px;
+    width: 80%;
+    background-color:#ffff;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: 120px;
+    bottom: 200px;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.f1{
+    display: flex;
+    padding: 15px;
+}
+.f1 img{
+    height: 50px;
+    width: 50px;
+}
+.f1 p{
+    position: relative;
+    top: 50px;
+   right: 70px;
+}
+.bot{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.b1{
+    display: flex;
+    justify-content:center;
+   
+}
+.b1 img{
+    height: 370px;
+    width: 440px;
+    padding: 20px;
+}
+.abso{
+    display: flex;
+    position: relative;
+    bottom: 250px;
+    justify-content: center;
+
+}
+.ab_1{
+    padding-top: 20px;
+    border-bottom: 5px solid rgb(50, 165, 211);
+    margin: 50px;
+    background-color: #ffff;
+    box-shadow: 3px 3px 3px gray;
+    padding: 20px;
+
+}
+.ab_img  {
+   display: flex;
+  
+
+}
+.ab_1 h3{
+    color: rgb(12, 12, 59);
+}
+.cl h4{
+    color: rgb(12, 12, 59);
+}
+.cl{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+
+}
+.ab_img img{
+    
+    height: 70px;
+    width: 70px;
+   
+}
+.about{
+    display: flex;
+    position: relative;
+    bottom: 170px;
+    justify-content: space-around;
+    background-color:whitesmoke;
+   padding: 20px;
+   height: 300px;
+}
+ 
+.about_1 p{
+    position: relative;
+    top:15px;
+}
+.abou_img{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+.abou_img h1{
+    position: relative;
+    top:20px;
+}
+.about2{
+    display: flex;
+
+}
+.about2 ul{
+    top:15px;
+    position: relative;
+    list-style: none;
+    right: 20px;
+}
+.about_1 input{
+    margin-top: 10px;
+    background-color: #ddd6d6d2;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.pho{
+margin-top: 20px;
+}
+.about_1 button{
+padding: 10px;
+    border-radius: 4px;
+    background-color: rgb(50, 165, 211);
+    color: #fff;
+    border: none;
+}
+.about_2{
+    display: flex;
+    position: relative;
+    bottom: 170px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+.emaii{
+    position: relative;
+    right: 30px;
+        color:rgb(99, 95, 95);
+        margin: 15px;
+        font-size: 1.1em;
+}
+
+@media screen and (max-width: 768px) {
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Adjust the main container for smaller screens */
+    .condain {
+        text-align: center;
+        padding: 20px;
+        bottom: 0;
+    }
+    
+    .condain h2 {
+        font-size: 1.5em;
+    }
+    
+    .con1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .im1 {
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .txt {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .imm {
+        height: 40px;
+        width: 80px;
+    }
+    
+    /* Adjust the middle section */
+    .mid {
+        padding: 20px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .mid1 {
+        margin-top: 20px;
+    }
+    
+    .mid img {
+        height: 80px;
+        width: 80px;
+    }
+    
+    /* Fin section responsiveness */
+    .fin {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        margin: 20px auto;
+        width: 95%;
+        box-shadow: none;
+    }
+    
+    .f1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .f1 img {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .f1 p {
+        margin-top: 10px;
+    }
+    
+    /* Bottom section adjustments */
+    .bot {
+        text-align: center;
+        padding: 10px;
+        bottom: 0;
+    }
+    
+    .b1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .b1 img {
+        height: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    /* Abso section adjustments */
+    .abso {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .ab_1 {
+        width: 90%;
+        margin: 20px 0;
+        box-shadow: none;
+        padding: 10px;
+    }
+    
+    /* About section adjustments */
+    .about {
+        flex-wrap: wrap;
+        padding: 10px;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .about_1 {
+        width: 90%;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    .about2 ul {
+        text-align: left;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    /* Newsletter section adjustments */
+    .about_1 input {
+        width: 80%;
+        margin: 10px 0;
+    }
+    
+    .about_1 button {
+        width: 80%;
+        margin: 10px 0;
+    }
+    
+    /* Bottom footer adjustments */
+    .about_2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .ico {
+        margin-top: 10px;
+    }
+    .condain h2, .condain h6 {
+        font-size: 1.2em;
+    }
+
+    .mid {
+        height: auto;
+    }
+
+    .fin {
+        flex-wrap: wrap;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .f1 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .bot {
+        padding: 10px;
+    }
+
+    .b1 img {
+        height: auto;
+        width: 90%;
+    }
+
+    .abso {
+        flex-wrap: wrap;
+    }
+
+    .ab_1 {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .about_1 {
+        width: 90%;
+        text-align: center;
+    }
+
+    .about2 ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    .about_1 input, .about_1 button {
+        width: 100%;
+    }
+
+    .about_2 {
+        flex-wrap: wrap;
+    }
+
+    .ico span {
+        margin: 0 10px;
+    }
+
+.fin{
+    display: none;
+    right:20px;
+}
+.ico{
+    position: relative;
+    top:30px;
+    right: 80px;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+}
+.about_2 p{
+    position: relative;
+    left: 50px;
+    display: flex;
+     justify-content: center;
+}
+.text{
+    font-size: 1.5em;
+    position: relative;
+    left: 100px;
+}
+.abou_img img{
+    position: relative;
+    left: 100px;
+    height: 50px;
+    width: 50px;
+}
+}

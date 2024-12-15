@@ -1,0 +1,355 @@
+.services {
+    text-align: center;
+    background-color: #0aa3c1;
+  }
+  .services h2 {
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  .service-cards {
+    display: flex;
+    justify-content:space-around;
+  }
+  .cards{
+    background-color:#ffff;
+    padding:15px;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    margin-left: 20px;
+    align-items: center;
+   
+  }
+  .card h3 {
+    margin-bottom: 1rem;
+    color: #0aa3c1;
+  }
+  .card p {
+    color: #555;
+  }
+  .con{
+    display: flex;
+  }
+  .cont1,.cont3{
+    /* display: flex; */
+    width: 400px;
+  }
+  .cont2{
+    width: 400px;
+    margin-left: 100px;
+    color: #ffff;
+  }
+  .cont2 strong{
+    color: #ffff;
+    font-size: 1.5em;
+  }
+  .cont3{
+    margin-left: 100px;
+
+    color: #ffff;
+  }
+  .ht{
+    margin-right: 70px;
+  }
+  .cards img{
+   height: 70px;
+   width: 70px;
+  }
+  .pt1{
+    color: #ffff;
+  }
+  .foot{
+     margin-top: 60px;
+  }
+  .foot1{
+    text-align: center;
+    align-items: center;
+  }
+  .foot1 strong{
+    margin-top: 20px;
+    color: gray;
+  }
+  .icon1{
+    height: 350px;
+    width: 400px;
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+  }
+  .sub_con{
+    display: flex;
+  }
+  .icon1 img{
+   height: 100px;
+   width: 100px;
+  }
+  .img-con{
+    margin-bottom: 300px;
+    position: relative;
+  }
+  .img-con1{
+    height: 350px;
+    width: 450px;
+    position: relative;
+    
+  }
+  .img-con1 img{
+    position: relative;
+    bottom: 20px;
+    width: 600px;
+    height: 600px;
+  }
+  .img-con2{
+    position:absolute;
+    background-color: #ffff;
+    bottom: 1px;
+    top: 20px;
+    height: 390px;
+    width: 61%;
+    margin-left: 520px;
+    box-shadow: 5px 3px 3px 5px  gray;
+  }
+  .img-con3{
+    padding-left: 0%;
+    margin-left:50px;
+  }
+  .img-con3 h5{
+    position: relative;
+    top: 20px;
+    color: #666262;
+  }
+  .mini1{
+    display: flex;
+    padding: 10px;
+  }
+  .m1{
+    padding: 15px;
+  }
+  .m1 img{
+    height: 40px;
+    width: 40px;
+  }
+  .last-con{
+    background-image: url(../assests/bac.avif) ;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: cover;
+    position: relative;
+    bottom: 240px;
+  }
+  .last-con h4{
+    color: #383030;
+  }
+  .last-con h2{
+    color: #050824;
+  }
+  .last-con1{
+    
+   text-align: center;
+  }
+  .last-con1 p{
+    color: #150f29f6;
+  }
+  .icon1 h3{
+    color: #0a093a;
+    font-weight: 900;
+    opacity: none;
+
+  }
+  .last-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box1{
+    padding: 10px;
+    color: #ffff;
+    background-color: #21bbda;
+    opacity: .9;
+    margin-top: 20px;
+    height: 300px;
+    width: 330px;
+    margin: 10px;
+
+  }
+  .box1 h4{
+    color: #050824;
+  }
+  .box1 img{
+    height: 70px;
+    width: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .services {
+      text-align: center;
+      background-color: #0aa3c1;
+    }
+    .services h2 {
+      margin-bottom: 2rem;
+      color: #333;
+    }
+    .service-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .cards {
+      background-color: #ffff;
+      padding: 15px;
+      height: auto;
+      width: 90%;
+      margin: 10px;
+      text-align: center;
+    }
+    .cards img {
+      height: 70px;
+      width: 70px;
+    }
+    .card h3 {
+      margin-bottom: 1rem;
+      color: #0aa3c1;
+    }
+    .card p {
+      color: #555;
+    }
+    .con {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      position: relative;
+      right:40px;
+      align-items: center;
+      gap: 20px;
+    }
+    .cont1, .cont3 {
+      width: 90%;
+    }
+    .cont2 {
+      width: 90%;
+      color: #ffff;
+    }
+    .cont2 strong {
+      color: #ffff;
+      font-size: 1.5em;
+    }
+    .cont1{
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+    }
+    .cont3 {
+      color: #ffff;
+    }
+    .ht {
+      text-align: center;
+    }
+    .pt1 {
+      color: #ffff;
+    }
+    .foot {
+      margin-top: 60px;
+    }
+    .foot1 {
+      text-align: center;
+      align-items: center;
+    }
+    .foot1 strong {
+      margin-top: 20px;
+      color: gray;
+    }
+    .icon1 {
+      height: auto;
+      width: 90%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    .sub_con {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .icon1 img {
+      height: 100px;
+      width: 100px;
+    }
+    .img-con {
+      margin-bottom: 100px;
+      position: relative;
+    }
+    .img-con1 {
+      width: 100%;
+      text-align: center;
+    }
+    .img-con1 img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+    .img-con2 {
+      position: relative;
+      background-color: #ffff;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 5px 3px 3px 5px gray;
+    }
+    .img-con3 {
+      margin: 0;
+    }
+    .img-con3 h5 {
+      color: #666262;
+    }
+    .mini1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .m1 {
+      text-align: center;
+    }
+    .m1 img {
+      height: 40px;
+      width: 40px;
+    }
+    .last-con {
+      background-image: url(../assests/bac.avif);
+      background-repeat: no-repeat;
+      padding: 20px;
+      background-size: cover;
+      margin-top: 40px;
+    }
+    .last-con h4 {
+      color: #383030;
+    }
+    .last-con h2 {
+      color: #050824;
+    }
+    .last-con1 {
+      text-align: center;
+    }
+    .last-con1 p {
+      color: #150f29f6;
+    }
+    .last-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .box1 {
+      background-color: #21bbda;
+      opacity: 0.9;
+      margin: 10px;
+      padding: 20px;
+      width: 90%;
+      text-align: center;
+    }
+    .box1 img {
+      height: 70px;
+      width: 70px;
+    }
+  
+  }
